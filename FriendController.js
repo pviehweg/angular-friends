@@ -5,17 +5,13 @@ app.controller('FriendController', function($scope, $http){
   $scope.orderReverse = "+";
 
 
-  ///////BLACK DIAMOND///////
-
-  // STEP 3: Uncomment the below
-
-  // $scope.searchAttrOptions = [
-  //   { label: 'Name', value: 'name' },
-  //   { label: '#Friends', value: 'friend_count' },
-  //   { label: 'City', value: 'current_location.city' },
-  //   { label: '#Friends', value: 'current_location.state' },
-  //   { label: 'Country', value: 'current_location.country' }
-  // ];
+ $scope.searchAttrOptions = [
+    { label: 'Name', value: 'name' },
+    { label: '#Friends', value: 'friend_count' },
+    { label: 'City', value: 'current_location.city' },
+    { label: '#Friends', value: 'current_location.state' },
+    { label: 'Country', value: 'current_location.country' }
+  ];
 
 
   $scope.friends = [
